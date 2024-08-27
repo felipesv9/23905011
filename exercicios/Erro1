@@ -1,0 +1,6 @@
+# include <stdio.h>
+ int main () {
+ double n = 4000000000;
+ printf ("%lf\n", n );
+ return 0;
+ }
