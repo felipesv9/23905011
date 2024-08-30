@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float grausF,grausC;
+    
+    printf("Escreva a temperatura do dia em Farenheit: ");
+    scanf("%f", &grausF);
+    
+    grausC = (5.0/9.0) * (grausF-32);
+    
+    printf("%.2f Graus centigrados", grausC);
+    return 0;
+ }
+   
