@@ -1,0 +1,20 @@
+
+int main() {
+    float P,V,T,M;
+    
+    printf("informe a pressão do pneu: ");
+    scanf("%f", &P);
+    
+    printf("informe a temperatura do pneu: ");
+    scanf("%f", &T);
+    
+    printf("informe o volume do pneu: ");
+    scanf("%f", &V);
+    
+    M=(P*V)/0.37*(T+460);
+    
+    printf("a massa do pneu eh: %.2f", M);
+    
+    return 0;
+ }
+   
