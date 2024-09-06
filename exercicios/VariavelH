@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    float T1, R, N, NT;
+    
+    printf("Escreva o primeito termo: ");
+    scanf("%f", &T1);
+    
+    printf("Escreva a razão de PA: ");
+    scanf("%f", &R);
+    
+    printf("Escreva um numero N de PA: ");
+    scanf("%f", &N);
+    
+    NT= T1+(N-1)*R;
+    
+    printf("O N-ésimo termo de PA he: %f", NT);
+return 0;
+ }
