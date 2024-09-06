@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main()
+{
+    float N1,N2, soma, subtracao, divisao, multiplicacao;
+    char OP;
+    printf("informe um digito: ");
+    scanf("%f", &N1);
+    
+    printf("informe um digito: ");
+    scanf("%f", &N2);
+    
+    printf("Qual operação você quer fazer? sendo soma +, subtração -, divisão /, multiplicação *,: ");
+    scanf("%s", &OP);
+     if (OP == '+') {
+    soma= N1+N2;
+    printf ("%f",soma);
+     }
+     else if (OP == '-') {
+    subtracao = N1-N2;
+    printf("%f", subtracao);
+     }
+     
+     else if(OP == '/'){
+    divisao= N1/N2;
+    printf("%f",divisao);
+     }
+     else if(OP =='*'); {
+    multiplicacao= N1*N2;
+    printf("%f", multiplicacao);
+     }
+     if (OP == 1) {
+         printf ("teste");
+     }
+     else {
+         printf("insira uma opcao valida");
+     }
+ 
+return 0;
+ }
