@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    float nota_trab, aval_sem, exame, media;
+
+    printf("Digite a nota do trabalho em laboratório: ");
+    scanf("%f", &nota_trab);
+
+    printf("Digite a nota da avaliação semestral: ");
+    scanf("%f", &aval_sem);
+
+    printf("Digite a nota do exame: ");
+    scanf("%f", &exame);
+
+    media = (nota_trab * 2.0 + aval_sem * 3.0 + exame * 5.0) / 10;
+
+    if(media >=8 && media <=10){
+            printf("Seu conceito final é A");
+    }
+    else if(media >=7 && media <= 7,99){
+        printf("Seu conceito final é B");
+    }
+    else if(media >=6 && media <= 6,99){
+        printf("Seu conceito Final é C");
+    }
+    else if(media >=5 && media <= 5,99){
+        printf("Seu conceito Final é D");
+    }
+    else if(media >=0 && media <= 4,99){
+        printf("Seu conceito Final é E");
+    }
+
+    printf("/nSua média final é: %.1f", media);
+
+    return 0;
+}
