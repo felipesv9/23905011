@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <ctype.h> 
+
+int main() {
+    char conceito;
+    
+    printf("Informe o conceito do aludo:");
+    scanf("%c", &conceito);
+    
+    conceito= toupper(conceito); 
+    
+    if(conceito =='A') {
+    printf("exelente");
+    }
+    else if(conceito =='B') {
+    printf("Ótimo");
+    }
+    else if(conceito =='C') {
+    printf("Bom");
+    }
+    else if(conceito =='D') {
+    printf("Regular");
+    }
+    else if(conceito =='E') {
+    printf("ruim");
+    }
+    else if(conceito =='F') {
+    printf("Tente novamente");
+    }
+    else{
+    printf("Erro");
+    }
+return 0;
+}
